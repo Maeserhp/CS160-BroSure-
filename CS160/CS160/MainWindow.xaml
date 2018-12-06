@@ -19,34 +19,34 @@
                     <Grid Background="#FFE5E5E5" Height="465" VerticalAlignment="Top" Margin="0,0,0,-78">
                         <ComboBox x:Name="tab1project1cbbox" HorizontalAlignment="Left" Margin="27,37,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client1cbbox" HorizontalAlignment="Left" Margin="182,37,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours1cbbox" HorizontalAlignment="Left" Margin="340,37,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours1cbbox" HorizontalAlignment="Left" Margin="340,37,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1project2cbbox" HorizontalAlignment="Left" Margin="27,64,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client2cbbox" HorizontalAlignment="Left" Margin="182,64,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours2cbbox" HorizontalAlignment="Left" Margin="340,64,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours2cbbox" HorizontalAlignment="Left" Margin="340,64,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1project3cbbox" HorizontalAlignment="Left" Margin="27,91,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client3cbbox" HorizontalAlignment="Left" Margin="182,91,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours3cbbox" HorizontalAlignment="Left" Margin="340,91,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours3cbbox" HorizontalAlignment="Left" Margin="340,91,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1project4cbbox" HorizontalAlignment="Left" Margin="27,118,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client4cbbox" HorizontalAlignment="Left" Margin="182,118,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours4cbbox" HorizontalAlignment="Left" Margin="340,118,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours4cbbox" HorizontalAlignment="Left" Margin="340,118,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1project5cbbox" HorizontalAlignment="Left" Margin="27,145,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client5cbbox" HorizontalAlignment="Left" Margin="182,145,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours5cbbox" HorizontalAlignment="Left" Margin="340,145,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours5cbbox" HorizontalAlignment="Left" Margin="340,145,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1visit1cbbox" HorizontalAlignment="Left" Margin="27,204,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client6cbbox" HorizontalAlignment="Left" Margin="182,204,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours6cbbox" HorizontalAlignment="Left" Margin="340,204,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours6cbbox" HorizontalAlignment="Left" Margin="340,204,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1visit2cbbox" HorizontalAlignment="Left" Margin="27,231,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client7cbbox" HorizontalAlignment="Left" Margin="182,231,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours7cbbox" HorizontalAlignment="Left" Margin="340,231,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours7cbbox" HorizontalAlignment="Left" Margin="340,231,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1visit3cbbox" HorizontalAlignment="Left" Margin="27,258,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client8cbbox" HorizontalAlignment="Left" Margin="182,258,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours8cbbox" HorizontalAlignment="Left" Margin="340,258,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours8cbbox" HorizontalAlignment="Left" Margin="340,258,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1visit4cbbox" HorizontalAlignment="Left" Margin="27,285,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client9cbbox" HorizontalAlignment="Left" Margin="182,285,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours9cbbox" HorizontalAlignment="Left" Margin="340,285,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours9cbbox" HorizontalAlignment="Left" Margin="340,285,0,0" VerticalAlignment="Top" Width="45"/>
                         <ComboBox x:Name="tab1visit5cbbox" HorizontalAlignment="Left" Margin="27,312,0,0" VerticalAlignment="Top" Width="147"/>
                         <ComboBox x:Name="tab1client10cbbox" HorizontalAlignment="Left" Margin="182,312,0,0" VerticalAlignment="Top" Width="147"/>
-                        <ComboBox x:Name="tab1hours10cbbox" HorizontalAlignment="Left" Margin="340,312,0,0" VerticalAlignment="Top" Width="45"/>
+                        <TextBox x:Name="tab1hours10cbbox" HorizontalAlignment="Left" Margin="340,312,0,0" VerticalAlignment="Top" Width="45"/>
                         <TextBox Name="tab1note1txbx" HorizontalAlignment="Left" Height="23" Margin="399,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
                         <TextBox x:Name="tab1note2txbx" HorizontalAlignment="Left" Height="23" Margin="399,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
                         <TextBox x:Name="tab1note3txbx" HorizontalAlignment="Left" Height="23" Margin="399,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
@@ -79,34 +79,34 @@
                 <Grid Background="#FFE5E5E5" Height="465">
                     <ComboBox x:Name="tab2task1cbbox" HorizontalAlignment="Left" Margin="27,37,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description1cbbox" HorizontalAlignment="Left" Margin="182,37,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours1cbbox" HorizontalAlignment="Left" Margin="340,37,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours1cbbox" HorizontalAlignment="Left" Margin="340,37,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2task2cbbox" HorizontalAlignment="Left" Margin="27,64,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description2cbbox" HorizontalAlignment="Left" Margin="182,64,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours2cbbox" HorizontalAlignment="Left" Margin="340,64,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours2cbbox" HorizontalAlignment="Left" Margin="340,64,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2task3cbbox" HorizontalAlignment="Left" Margin="27,91,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description3cbbox" HorizontalAlignment="Left" Margin="182,91,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours3cbbox" HorizontalAlignment="Left" Margin="340,91,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours3cbbox" HorizontalAlignment="Left" Margin="340,91,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2task4cbbox" HorizontalAlignment="Left" Margin="27,118,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description4cbbox" HorizontalAlignment="Left" Margin="182,118,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours4cbbox" HorizontalAlignment="Left" Margin="340,118,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours4cbbox" HorizontalAlignment="Left" Margin="340,118,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2task5cbbox" HorizontalAlignment="Left" Margin="27,145,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description5cbbox" HorizontalAlignment="Left" Margin="182,145,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours5cbbox" HorizontalAlignment="Left" Margin="340,145,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours5cbbox" HorizontalAlignment="Left" Margin="340,145,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2admin1cbbox" HorizontalAlignment="Left" Margin="27,204,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description6cbbox" HorizontalAlignment="Left" Margin="182,204,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours6cbbox" HorizontalAlignment="Left" Margin="340,204,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours6cbbox" HorizontalAlignment="Left" Margin="340,204,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2admin2cbbox" HorizontalAlignment="Left" Margin="27,231,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description7cbbox" HorizontalAlignment="Left" Margin="182,231,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours7cbbox" HorizontalAlignment="Left" Margin="340,231,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours7cbbox" HorizontalAlignment="Left" Margin="340,231,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2admin3cbbox" HorizontalAlignment="Left" Margin="27,258,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description8cbbox" HorizontalAlignment="Left" Margin="182,258,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours8cbbox" HorizontalAlignment="Left" Margin="340,258,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours8cbbox" HorizontalAlignment="Left" Margin="340,258,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2admin4cbbox" HorizontalAlignment="Left" Margin="27,285,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description9cbbox" HorizontalAlignment="Left" Margin="182,285,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours9cbbox" HorizontalAlignment="Left" Margin="340,285,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours9cbbox" HorizontalAlignment="Left" Margin="340,285,0,0" VerticalAlignment="Top" Width="45"/>
                     <ComboBox x:Name="tab2admin5cbbox" HorizontalAlignment="Left" Margin="27,312,0,0" VerticalAlignment="Top" Width="147"/>
                     <ComboBox x:Name="tab2description10cbbox" HorizontalAlignment="Left" Margin="182,312,0,0" VerticalAlignment="Top" Width="147"/>
-                    <ComboBox x:Name="tab2hours10cbbox" HorizontalAlignment="Left" Margin="340,312,0,0" VerticalAlignment="Top" Width="45"/>
+                    <TextBox x:Name="tab2hours10cbbox" HorizontalAlignment="Left" Margin="340,312,0,0" VerticalAlignment="Top" Width="45"/>
                     <TextBox x:Name="tab2note1txbx" HorizontalAlignment="Left" Height="23" Margin="399,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
                     <TextBox x:Name="tab2note2txbx" HorizontalAlignment="Left" Height="23" Margin="399,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
                     <TextBox x:Name="tab2note3txbx" HorizontalAlignment="Left" Height="23" Margin="399,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
