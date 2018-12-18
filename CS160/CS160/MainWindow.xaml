@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:CS160"
         mc:Ignorable="d"
         
-        Title="End of Shift Report" Height="680" Width="894.628" Closing="Window_Closing">
+        Title="End of Shift Report" Height="680" Width="894.628" >
     <Grid>
         <Image Source="logo.png" Width="309" Height="64" VerticalAlignment="top"/>
         <TabControl HorizontalAlignment="Left" Height="561" Margin="30,69,0,0" VerticalAlignment="Top" Width="824">
@@ -19,13 +19,13 @@
                         <Label FontSize="14" Content="Description" HorizontalAlignment="Left" Margin="203,180,0,0" VerticalAlignment="Top"/>
                         <Label FontSize="14" Content="Hours" HorizontalAlignment="Left" Margin="398,180,0,0" VerticalAlignment="Top"/>
                         <Label FontSize="14" Content="Notes" HorizontalAlignment="Left" Margin="492,180,0,0" VerticalAlignment="Top"/>
-                        <ComboBox x:Name="tab1project1cbbox" HorizontalAlignment="Left" Margin="47,85,0,0" VerticalAlignment="Top" Width="98">
-                            <ComboBoxItem Selected="ComboBoxItem_Selected">Other</ComboBoxItem>
-                        </ComboBox>
-                        <ComboBox x:Name="tab1client1cbbox" HorizontalAlignment="Left" Margin="203,85,0,0" VerticalAlignment="Top" Width="147"/>
+                        <ComboBox x:Name="tab1project1cbbox" HorizontalAlignment="Left" Margin="47,85,0,0" VerticalAlignment="Top" Width="98" Loaded="Tab1project1cbbox_Loaded"/>
+
+
+                        <ComboBox x:Name="tab1client1cbbox" HorizontalAlignment="Left" Margin="203,85,0,0" VerticalAlignment="Top" Width="147" Loaded="Tab1client1cbbox_Loaded"/>
                         <TextBox x:Name="tab1hours1cbbox" HorizontalAlignment="Left" Margin="398,90,0,0" VerticalAlignment="Top" Width="45" Height="23"/>
-                        <ComboBox x:Name="tab1visit1cbbox" HorizontalAlignment="Left" Margin="47,147,0,0" VerticalAlignment="Top" Width="98"/>
-                        <ComboBox x:Name="tab1client6cbbox" HorizontalAlignment="Left" Margin="203,147,0,0" VerticalAlignment="Top" Width="147"/>
+                        <ComboBox x:Name="tab1visit1cbbox" HorizontalAlignment="Left" Margin="47,147,0,0" VerticalAlignment="Top" Width="98" Loaded="Tab1visit1cbbox_Loaded"/>
+                        <ComboBox x:Name="tab1client6cbbox" HorizontalAlignment="Left" Margin="203,147,0,0" VerticalAlignment="Top" Width="147" Loaded="Tab1client1cbbox_Loaded"/>
                         <TextBox x:Name="tab1hours6cbbox" HorizontalAlignment="Left" Margin="398,152,0,0" VerticalAlignment="Top" Width="45" Height="23"/>
                         <TextBox Name="tab1note1txbx" HorizontalAlignment="Left" Height="23" Margin="492,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
                         <TextBox x:Name="tab1note5txbx" HorizontalAlignment="Left" Height="23" Margin="492,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
@@ -39,12 +39,12 @@
                         <Label FontSize="14" Content="Hours" HorizontalAlignment="Left" Margin="398,118,0,0" VerticalAlignment="Top"/>
                         <Label FontSize="14" Content="Notes" HorizontalAlignment="Left" Margin="492,118,0,0" VerticalAlignment="Top"/>
                         <Button x:Name="tab1savebtn" Content="Save" HorizontalAlignment="Left" Margin="733,480,0,0" VerticalAlignment="Top" Width="75" Height="25" FontSize="14"/>
-                        <ComboBox x:Name="tab2task1cbbox" HorizontalAlignment="Left" Margin="47,209,0,0" VerticalAlignment="Top" Width="98"/>
-                        <ComboBox x:Name="tab2description1cbbox" HorizontalAlignment="Left" Margin="203,209,0,0" VerticalAlignment="Top" Width="147"/>
+                        <ComboBox x:Name="tab2task1cbbox" HorizontalAlignment="Left" Margin="47,209,0,0" VerticalAlignment="Top" Width="98" Loaded="Tab2task1cbbox_Loaded"/>
+                        <TextBox x:Name="tab2description1txbox" HorizontalAlignment="Left" Margin="203,209,0,0" VerticalAlignment="Top" Width="147" Height="23"/>
                         <TextBox x:Name="tab2hours1cbbox" HorizontalAlignment="Left" Margin="398,214,0,0" VerticalAlignment="Top" Width="45" Height="23"/>
                         <TextBox x:Name="tab2note1txbx" HorizontalAlignment="Left" Height="23" Margin="492,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
-                        <ComboBox x:Name="tab2admin1cbbox" HorizontalAlignment="Left" Margin="47,271,0,0" VerticalAlignment="Top" Width="98"/>
-                        <ComboBox x:Name="tab2description6cbbox" HorizontalAlignment="Left" Margin="203,271,0,0" VerticalAlignment="Top" Width="147"/>
+                        <ComboBox x:Name="tab2admin1cbbox" HorizontalAlignment="Left" Margin="47,271,0,0" VerticalAlignment="Top" Width="98" Loaded="Tab2admin1cbbox_Loaded"/>
+                        <TextBox x:Name="tab2description6txbox" HorizontalAlignment="Left" Margin="203,271,0,0" VerticalAlignment="Top" Width="147" Height="23"/>
                         <TextBox x:Name="tab2hours6cbbox" HorizontalAlignment="Left" Margin="398,276,0,0" VerticalAlignment="Top" Width="45" Height="23"/>
                         <TextBox x:Name="tab2note6txbx" HorizontalAlignment="Left" Height="23" Margin="492,276,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
                         <Label FontSize="14" Content="Admin Type" HorizontalAlignment="Left" Margin="47,242,0,0" VerticalAlignment="Top"/>
@@ -54,20 +54,20 @@
                         <Label Content="Employee Name" HorizontalAlignment="Left" Margin="153,10,0,0" VerticalAlignment="Top"/>
                         <Label Content="Date" HorizontalAlignment="Left" Margin="541,10,0,0" VerticalAlignment="Top"/>
                         <DatePicker x:Name="maindatepicker" HorizontalAlignment="Left" Margin="587,10,0,0" VerticalAlignment="Top"/>
-                        <ComboBox x:Name="mainemployeecbbox" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" Width="248"/>
-                        <Button Content="Add" HorizontalAlignment="Left" Margin="696,90,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                        <ComboBox x:Name="mainemployeecbbox" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" Width="248" Loaded="employeecbbox_Loaded"/>
+                        <Button Content="Add" HorizontalAlignment="Left" Margin="696,90,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click"/>
                         <Button Content="Add" HorizontalAlignment="Left" Margin="696,156,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
                         <Button Content="Add" HorizontalAlignment="Left" Margin="696,218,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
                         <Button Content="Add" HorizontalAlignment="Left" Margin="696,276,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
 
 
-                        <DataGrid HorizontalAlignment="Left" Height="100" Margin="114,366,0,0" VerticalAlignment="Top" Width="563">
+                        <DataGrid x:Name="maindatagrid" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="100" Margin="114,366,0,0" VerticalAlignment="Top" Width="563" Loaded="DataGrid_Loaded">
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="Activity" Width="100"/>
-                                <DataGridTextColumn Header="Client" Width="100"/>
-                                <DataGridTextColumn Header="Hours" Width="100"/>
-                                <DataGridTextColumn Header="Number" Width="100"/>
-                                <DataGridTextColumn Header="Notes" Width="163"/>
+                                <DataGridTextColumn Header="Activity" Binding="{Binding XPath=activity}" Width="100"/>
+                                <DataGridTextColumn Header="Client" Binding="{Binding XPath= client}" Width="100"/>
+                                <DataGridTextColumn Header="Hours" Binding="{Binding XPath= hours}" Width="100"/>
+                                <DataGridTextColumn Header="Number" Binding="{Binding XPath= number}" Width="100"/>
+                                <DataGridTextColumn Header="Notes" Binding="{Binding XPath= notes}" Width="163"/>
 
                             </DataGrid.Columns>
                         </DataGrid>
