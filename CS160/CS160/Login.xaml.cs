@@ -29,7 +29,7 @@ namespace CS160
         {
             if (textBoxEmail.Text.Length == 0)
             {
-                errormessage.Text = "Enter an email.";
+                errormessage.Text = "Enter your email.";
                 textBoxEmail.Focus();
             }
     
